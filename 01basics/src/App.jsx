@@ -1,10 +1,12 @@
 import React from 'react';
+import Chai from './chai';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Chai Aur React with Vite | Shaikh Affan</h1>
-    </div>
+    <>
+    <Chai/> 
+    <p>Paragraph</p>
+    </>
   );
 }
 
