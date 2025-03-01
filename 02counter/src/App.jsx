@@ -2,13 +2,15 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let [counter, setCounter] = useState(0)
+  let [counter, setCounter] = useState(15)
   
   const addValue = () => {
     console.log("clicked", counter)
     if(counter < 20) {
-      counter++
-      setCounter(counter)
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
     } else {
       console.log("The counter will not updated")
     }
@@ -16,8 +18,7 @@ function App() {
 
   const remValue = () => {
     if(counter > 0) {
-      counter--
-      setCounter(counter)
+      setCounter(counter--)
     } else {
       console.log("The counter will not updated")
     }
