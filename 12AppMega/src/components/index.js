@@ -1,13 +1,17 @@
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
-import Container from './Container/Container'
-import Logo from './Logo'
-import LogoutBtn from './Header/LogoutBtn'
-import Button from './Button'
-import Select from './Select'
-import Login from './Login'
-import PostCard from './PostCard'
-import Input from './Input'
+import Header from "./Header/Header.jsx";
+import Footer from "./Footer/Footer.jsx";
+import Container from './Container/Container.jsx'
+import Logo from './Logo.jsx'
+import LogoutBtn from './Header/LogoutBtn.jsx'
+import Button from './Button.jsx'
+import Select from './Select.jsx'
+import Login from './Login.jsx'
+import PostCard from './PostCard.jsx'
+import Input from './Input.jsx'
+import RTE from './RTE.jsx'
+import Signup from "./Signup.jsx"
+import PostForm from './PostForm/PostForm.jsx'
+import AuthLayout from './AuthLayout.jsx'
 
 export { 
     Header,
@@ -19,5 +23,26 @@ export {
     Select,
     Login,
     PostCard,
-    Input
+    Input,
+    RTE, 
+    Signup,
+    PostForm,
+    AuthLayout
 };
+
+console.log({
+    Header,
+    Footer,
+    Container,
+    Logo,
+    LogoutBtn,
+    Button,
+    Select,
+    Login,
+    PostCard,
+    Input,
+    RTE, 
+    Signup,
+    PostForm,
+    AuthLayout
+});
